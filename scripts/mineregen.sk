@@ -1,0 +1,4 @@
+command /test:
+  permission: operator
+  trigger:
+    send "Test"
