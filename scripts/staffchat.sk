@@ -1,5 +1,5 @@
 on load:
-  message "&aStaff Chat System Active! - Arno"
+  message "&aStaff Chat System Active! - Arno" to operators
 
 command /sc [<text>]:
   permission: Staffchat.Use
