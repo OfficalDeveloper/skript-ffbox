@@ -1,0 +1,6 @@
+command /staffannounce [<text>]:
+  permission: operator
+  trigger:
+    broadcast ""
+    broadcast "&c[STAFF ANNOUNCEMENT] %arg-1%"
+    broadcast ""
