@@ -4,4 +4,4 @@ on load:
 command /sc [<text>]:
   permission: Staffchat.Use
   trigger:
-    send "&cSC: &f%arg-1%" to players where [input has permission "Staffchat.Use"]
+    send "&c[SC] &c%player%: &f%arg-1%" to players where [input has permission "Staffchat.Use"]
