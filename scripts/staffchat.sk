@@ -1,1 +1,6 @@
-
+command /sc [<text>]:
+  permission: Staffchat.Use
+  trigger:
+    loop all players:
+      if loop-player has permission Staffchat.Use:
+        message "&cSC: %arg-1%" to loop-player
