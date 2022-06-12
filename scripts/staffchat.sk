@@ -1,3 +1,6 @@
+on load:
+  message "&aStaff Chat System Active! - Arno"
+
 command /sc [<text>]:
   permission: Staffchat.Use
   trigger:
