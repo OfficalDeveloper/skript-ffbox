@@ -1,0 +1,5 @@
+command /bossspawn:
+  permission: operator
+  trigger:
+    broadcast "&cBoss spawned at %location of player%"
+    spawn zombie at player
