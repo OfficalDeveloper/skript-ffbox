@@ -1,5 +1,5 @@
 command /customentity [<text>]:
-  usage: /customentity Mob - AW (Ancient Warriors), BC (Beacon Cultists), Boss
+  usage: customentity Mob - AW (Ancient Warriors), BC (Beacon Cultists), Boss
   permission: operator
   trigger:
     if arg-1 is "boss":
