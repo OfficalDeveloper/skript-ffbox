@@ -1,9 +1,29 @@
-command /bossspawn:
+command /customentity [<text>]:
+  usage: /customentity Mob - AW (Ancient Warriors), BC (Beacon Cultists), Boss
   permission: operator
   trigger:
-    broadcast "&cBoss has been summoned by &f%player%&c!"
-    spawn 1 zombie at location of player
-    equip last spawned zombie with diamond helmet of protection 10
-    equip last spawned zombie with diamond chestplate of protection 10
-    equip last spawned zombie with diamond leggings of protection 10
-    equip last spawned zombie with diamond boots of protection 10
+    if arg-1 is "boss":
+      broadcast "&cBoss has been summoned by &f%player%&c!"
+      spawn 1 zombie at location of player
+      equip last spawned zombie with diamond helmet of protection 10
+      equip last spawned zombie with diamond chestplate of protection 10
+      equip last spawned zombie with diamond leggings of protection 10
+      equip last spawned zombie with diamond boots of protection 10
+      set last spawned zombie's max health to 250
+      set last spawned zombie's health to 250
+    if arg-1 is "AW":
+      spawn 1 husk at location of player
+      equip last spawned husk with diamond helmet of protection 10
+      equip last spawned husk with diamond chestplate of protection 10
+      equip last spawned husk with diamond leggings of protection 10
+      equip last spawned husk with diamond boots of protection 10
+      set last spawned husk's max health to 100
+      set last spawned husk's health to 100
+    if arg-1 is "BC":
+      spawn 1 wither skeleton at location of player
+      equip last spawned wither skeleton with diamond helmet of protection 10
+      equip last spawned wither skeleton with diamond chestplate of protection 10
+      equip last spawned wither skeleton with diamond leggings of protection 10
+      equip last spawned wither skeleton with diamond boots of protection 10
+      set last spawned wither skeleton's max health to 100
+      set last spawned wither skeleton's health to 100
