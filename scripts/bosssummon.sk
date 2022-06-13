@@ -35,5 +35,6 @@ command /customentity [<text>]:
       set the display name of the last spawned zombie to "&0&lBeacon Cultist"
 
 every 1 second:
-  if name of entity is "&c&lBoss":
-    broadcast "Success!"
+  loop all zombies:
+    if name of zombie is "&c&lBoss":
+      broadcast "Success!"
