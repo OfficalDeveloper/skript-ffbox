@@ -26,7 +26,7 @@ command /customentity [<text>]:
       equip last spawned wither skeleton with diamond helmet of protection 10
       equip last spawned wither skeleton with diamond chestplate of protection 10
       equip last spawned wither skeleton with diamond leggings of protection 10
-      equip last spawned wither skeleton with diamond boots of protection 10wal
+      equip last spawned wither skeleton with diamond boots of protection 10
       set last spawned wither skeleton's max health to 100
       set last spawned wither skeleton's health to 100
       apply potion of speed of tier 2 to last spawned wither skeleton for 999999 seconds
